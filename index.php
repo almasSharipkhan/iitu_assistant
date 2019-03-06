@@ -16,7 +16,6 @@
     } else {
         $action_name = 'action_index';
     }
-
     $path = "core/controllers/" . $controller_name . '.php';
     if(file_exists($path)){
         require_once $path;
